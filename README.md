@@ -7,23 +7,23 @@ SQL is hosted via localhost:3333
 
 - We run the script Server.JS to start our application. 
 
-<img src="projectphotos/shot1.png">
+<img src="projectimages/shot1.png">
 
 - Next! we open a web browser and enter our host address (localhost:8080)
 
-<img src="projectphotos/localhost.png">
+<img src="projectimages/localhost.png">
 
 At this point the application hosted through Express and viewed through handlebars.js will display on our screen. 
 
-<img src="projectphotos/fullview.png">
+<img src="projectimages/fullview.png">
 
 At the same moment that the connection is made, we can see that the app has also fetched our data from our SQL server. That data is now displayed in the console.
 
-<img src="projectphotos/shot2.png">
+<img src="projectimages/shot2.png">
 
 Our SQL server is actually what is providing the data that is populating much of the screen. Each Burger, and its status is checked against our data there.
 
-<img src="projectphotos/sqlconnect.png">
+<img src="projectimages/sqlconnect.png">
 
 <h2>Let's try playing with the app some more to see what we can do!</h2>
 
@@ -33,27 +33,27 @@ We can create a burger entry by using the form at the bottom of the window. This
 
 - If we create a burger by giving it a name and a status, It will be displayed under its respective owner. Lets give jules a burger. 
 
-<img src="projectphotos/julesselect.png">
+<img src="projectimages/julesselect.png">
 
 The table is now updated!
 
-<img src="projectphotos/julesburgers.png">
+<img src="projectimages/julesburgers.png">
 
 - Lets give a burger to vincent!
 
-<img src="projectphotos/vincentselect.png">
+<img src="projectimages/vincentselect.png">
 
 The table is now updated!
 
-<img src="projectphotos/vincentburgers.png">
+<img src="projectimages/vincentburgers.png">
 
 This is what our page should now look like : 
 
-<img src="projectphotos/allburgers.png">
+<img src="projectimages/allburgers.png">
 
  - That's a lot of burgers! - Let's get rid of the first two burgers for each character. We can do this by pressing the "Toss it!" button.
 
- <img src="projectphotos/burgerstossed.png">
+ <img src="projectimages/burgerstossed.png">
 
 
 The functionality does not stop here! - There is a lot of useful things we can do with this app... burgers are fun! - If we want to, we can switch the owner of a burger, by hitting the "Switch to partner" button
@@ -62,7 +62,7 @@ The functionality does not stop here! - There is a lot of useful things we can d
 
 We should see the changes immediately! 
 
-<img src="projectphotos/switchburgers.png">
+<img src="projectimages/switchburgers.png">
 
 <h2>Don't be fooled!</h2>
 
@@ -70,7 +70,7 @@ This app is somewhat complicated! - There are many pages of javascript. packages
 
 Below is an example of the structure : 
 
-<img src="projectphotos/filetree.png">
+<img src="projectimages/filetree.png">
 
 Perhaps the most important peice of insight I gained from putting all of this together is that when dealing with larger projects, being able to compartmentalize mentally, and having the patience to go over one page at a time is a valuable asset to have. 
 
@@ -80,7 +80,7 @@ When I am dealing with packages or API's I find getting back to the basics and r
 
 The code for Express below is almost exactly what is refenced in the docs :
 
-<img src="projectphotos/expressconnect.png">
+<img src="projectimages/expressconnect.png">
 
 - A lot of publishers know that dealing with API's and huge amounts of packages can get really complicated, so a lot of the code they actually host on their webdocs or elsewhere is often written as simply as possible! - It is amazing what you can get out of a NPM Readme! 
 
